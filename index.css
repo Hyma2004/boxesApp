@@ -1,0 +1,51 @@
+* {
+  box-sizing: "box-border";
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+  width: 100px;
+}
+.heading {
+  color: #0f172a;
+  font-family: "Bree Serif";
+  font-size: 32px;
+  padding: 20px;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  flex-wrap: nowrap;
+}
+.box1 {
+  background-color: #fbbf24;
+  font-family: "Roboto";
+  font-size: 20px;
+  height: 100px;
+  width: 100px;
+  margin: 10px 0px;
+}
+.box2 {
+  background-color: #38bdf8;
+  font-family: "Roboto";
+  font-size: 20px;
+  height: 100px;
+  width: 100px;
+  margin: 10px 0px;
+}
+.box3 {
+  background-color: #ec4899;
+  font-family: "Roboto";
+  font-size: 20px;
+  height: 100px;
+  width: 100px;
+  margin: 10px 0px;
+}
+/* Write your code here. */
